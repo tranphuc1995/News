@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager_header_news"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="14dp"></android.support.v4.view.ViewPager>
+
+    <com.rd.PageIndicatorView
+        android:layout_marginTop="5dp"
+        android:id="@+id/pageIndicatorView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        app:piv_animationType="drop"
+        app:piv_count="2"
+        app:piv_interactiveAnimation="true"
+        app:piv_selectedColor="@color/colorLineItemCategory"
+        app:piv_unselectedColor="@color/colorItemCategoryNotActive"
+        app:piv_viewPager="@id/viewpager_header_news"
+        app:piv_radius="4dp" />
+
+</LinearLayout>

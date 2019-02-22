@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="190dp"
+    android:layout_marginTop="14dp"
+    android:orientation="vertical"
+    android:paddingLeft="7dp"
+    android:paddingRight="7dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+       <!-- <android.support.v7.widget.CardView
+            app:cardBackgroundColor="@color/colorItemCategoryNotActive"
+            android:layout_width="match_parent"
+            app:cardCornerRadius="7dp"
+            android:layout_height="110dp">-->
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/image_picture"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:scaleType="fitXY"
+                app:riv_corner_radius="7dp" />
+      <!--  </android.support.v7.widget.CardView>-->
+
+        <TextView
+            android:id="@+id/textview_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image_picture"
+            android:layout_marginTop="5dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/pt_sans"
+            android:lines="3"
+            android:maxLines="3"
+            android:text="Giữ hình ảnh là điều quá xa xỉ với hoa hậu ao làng"
+            android:textColor="@color/colorBlack"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/textview_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textview_title"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/pt_sans"
+            android:text="08:22 hôm nay"
+            android:textColor="#8395a7"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/image_bookmark"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

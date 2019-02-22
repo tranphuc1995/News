@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">News Kt</string>
+    <string name="bookmark">Ưa thích</string>
+    <string name="language">Ngôn ngữ</string>
+    <string name="confirm">Xác nhận</string>
+    <string name="cancel">Hủy</string>
+    <string name="minutes_ago">phút trước</string>
+    <string name="about_an_hour_ago">1 giờ trước</string>
+    <string name="hours_ago">giờ trước</string>
+    <string name="yesterday">ngày hôm qua</string>
+    <string name="days_ago">ngày trước</string>
+    <string name="no_wifi">Không có mạng, chạm màn hình để thử lại</string>
+    <string name="no_bookmark">Không có bài báo ưa thích</string>
+    <string-array name="category">
+        <item>Trang chủ</item>
+        <item>Thời sự</item>
+        <item>Thời trang</item>
+        <item>Tài chính</item>
+        <item>Ẩm thực</item>
+        <item>Âm nhạc</item>
+        <item>Làm đẹp</item>
+        <item>Phim</item>
+        <item>Thể thao</item>
+        <item>Giáo dục</item>
+        <item>Công nghệ</item>
+        <item>Ô tô</item>
+    </string-array>
+
+
+</resources>

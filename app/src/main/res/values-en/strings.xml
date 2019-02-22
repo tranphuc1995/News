@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">News Kt</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="language">Language</string>
+    <string name="confirm">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="minutes_ago">minutes ago</string>
+    <string name="about_an_hour_ago">about an hour ago</string>
+    <string name="hours_ago">hours ago</string>
+    <string name="yesterday">yesterday</string>
+    <string name="days_ago">days_ago</string>
+    <string name="no_wifi">No network, tap the screen to try again</string>
+    <string name="no_bookmark">No favorite news</string>
+    <string-array name="category">
+        <item>Home page</item>
+        <item>News</item>
+        <item>Fashion</item>
+        <item>Finance</item>
+        <item>Cuisine</item>
+        <item>Music</item>
+        <item>Make up</item>
+        <item>Movie</item>
+        <item>Sport</item>
+        <item>Education</item>
+        <item>Technology</item>
+        <item>Car</item>
+    </string-array>
+</resources>
